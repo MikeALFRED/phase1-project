@@ -28,7 +28,7 @@
 
 
  function getGymclothes(){
-  return fetch ("http://localhost:3000/products")
+  return fetch ("https://deploy-1-u7te.onrender.com/products")
  .then(res => res.json())
  .then(gymClothes =>gymClothes)
  }
